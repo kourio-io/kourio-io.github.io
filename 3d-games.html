@@ -662,7 +662,10 @@ a:hover figcaption { color: #056767; }
                   <h2 class="text-center">Kour io</h2>
               </div>
 							
-		  <link rel="import" href="all/menu.html"> 
+		  <div id="includedContent"></div>
+		  $(function(){
+  $('#includedContent').load('all/menu.html'); 
+});
 
               <div class="tm-mb-65">
                   <a rel="nofollow" href="https://fb.com" class="tm-social-link">
